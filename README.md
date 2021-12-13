@@ -10,7 +10,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## If this is a new firebase project you need to go to 
+## Next steps
+
+### Install dependcies
+
+### `yarn`
+
 
 ## Available Scripts
 
