@@ -4,8 +4,8 @@
 ## Getting Started w Firebase
 
 - Create a firebase project in the [firebase console](https://console.firebase.google.com/).
-- Create a webapp in firebase 
-- Create a .env file at the root level of your reposotiry and copy config values from your firebase webapp into the .env there is .env.example provided to give you the correct keys.
+- Create a webapp from the firebase console. 
+- Create a .env file at the root level of your reposotiry and copy config values from your firebase webapp into the .env you just created. There is .env.example provided to give you the required keys. Conversely, you can just add your values to that file and rename it. Double check that your .env is in your gitignore and not committed to github. 
 - Enable authentication and firestore database in your firebase console.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
