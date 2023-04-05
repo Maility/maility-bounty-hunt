@@ -1,16 +1,53 @@
-# Getting Started 
+# Maility Full-Stack Developer Coding Test
 
+Welcome, developer! You've embarked on the Maility coding challenge to prove your full-stack development skills. Below you'll find all the information needed to complete the test, including the project requirements, structure, and submission guidelines.
 
-## Getting Started w Firebase
+## Test Overview
 
-- Create a firebase project in the [firebase console](https://console.firebase.google.com/).
-- Create a webapp from the firebase console. 
-- Create a .env file at the root level of your reposotiry and copy config values from your firebase webapp into the .env you just created. There is .env.example provided to give you the required keys. Conversely, you can just add your values to that file and rename it. Double check that your .env is in your gitignore and not committed to github. 
-- Enable authentication and firestore database in your firebase console.
+This test covers the following aspects:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. **Frontend**: Modern JavaScript (ES6) with Material UI
+2. **Backend**: Firebase/Firestore and Firebase functions
+3. **Hosting**: You can host this however way you like!
 
-## Next steps
+## Project Structure
+
+The project is divided into frontend and backend components:
+
+### Frontend
+
+The frontend is built using modern JavaScript (ES6) and Material UI. You will find a toolbar and two big placeholders where you'll code a CSV upload component and a simple textarea from which to compose an email.
+
+### Backend
+
+The backend is built using Firebase/Firestore and Firebase functions. You will find a partially implemented Firebase data model and functions, including a nodemailer function that takes a mail body, subject, and email address, and sends the email. You'll also need to implement a simple cron job task.
+
+## Test Requirements
+
+To complete this coding test, you'll need to accomplish the following tasks:
+
+1. Implement a CSV upload component in the frontend.
+2. Implement a simple textarea component in the frontend.
+3. Be able to send these to the Firestore backend
+4. Create functions to send the emails
+5. Complete the nodemailer function in the backend that sends emails.
+6. Implement a simple cron job task
+
+## Submission Guidelines
+
+Once you've completed the test, please follow these steps for submission:
+
+1. Fork this GitHub repository.
+2. Complete the coding test according to the requirements mentioned above.
+3. Host the project on Repl.it (bonus points for this step).
+4. Submit a pull request to the original repository with your changes.
+5. In the pull request description, include a link to your hosted project on Repl.it.
+
+Good luck, and may the coding winds be in your favor!
+
+---
+
+# Next steps
 
 ### Install dependcies
 
@@ -24,7 +61,6 @@ In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
@@ -43,43 +79,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
